@@ -17,7 +17,7 @@
     margin: auto;
     padding-right: 5%;
     margin-top: 0%;
-    display: flex;
+    display: table;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(28, 24, 90);
