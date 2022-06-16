@@ -1,3 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    width: 100%;
+    margin: auto;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(28, 24, 90);
+}
+
+.menu>ul>li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    
+}
+
+.menu>ul>li>a{
+    text-decoration: none;
+    color: rgb(208, 208, 208);
+    text-transform: uppercase;
+    font-size: x-large;
+
+}
+
+.menu>ul>li>a:hover{
+  color: rgba(118, 36, 173, 0.545);
+}
+
 .ruch{
     width: 100%;
     height: 100%;

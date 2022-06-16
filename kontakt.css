@@ -37,9 +37,11 @@
     color: beige;
     text-transform: uppercase;
     font-size: x-large;
-
 }
 
+.menu>ul>li>a:hover{
+  color: rgba(118, 36, 173, 0.545);
+}
 
 
 .split {
@@ -73,37 +75,7 @@
     color: aliceblue;
   }
 
-  
-/*.Kontakt{
-    display: flex;
-    flex: auto;
-    position: relative;
-    left:0;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
-    width: 80%;
-    height: 300px;
-    margin-top: 10vw;
-    user-select: none;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(135, 80, 11);
-    opacity: 0.9;
-    text-align: center;
-    flex-direction: column;
-}
 
-
-.Kontakt .dane{
-    flex-direction: column;
-    display: block;
-    position: absolute;
-    list-style: none;
-    font-size: 20px;
-    text-align: left;
-    color: aliceblue;
-}
-*/
 .Kontakt {
   border: 2px solid #ccc;
   background-color: #eee;
@@ -123,7 +95,6 @@
 .Kontakt img {
   float: left;
   margin-right: 20px;
-  border-radius: 50%;
 }
 
 /* Increase the font-size of a span element */
@@ -133,14 +104,4 @@
 }
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the container */
-@media (max-width: 500px) {
-  .Kontakt {
-    text-align: center;
-  }
 
-  .Kontakt img {
-    margin: auto;
-    float: none;
-    display: block;
-  }
-}
